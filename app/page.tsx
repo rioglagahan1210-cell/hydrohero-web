@@ -42,7 +42,7 @@ export default function Dashboard() {
         const { data: status, error } = await supabase
           .from('tumbler_status')
           .select('*')
-          .eq('device_id', 'HYDRO-HERO-01')
+          .eq('device_id', 'SD MUH SAPEN')
           .maybeSingle();
 
         if (error) console.warn('Supabase handshake notice:', error.message);
@@ -129,7 +129,7 @@ export default function Dashboard() {
             </span>
           </div>
           <p className="text-xs text-slate-400 mt-1 font-mono tracking-wide">
-            CLIMATE-ADAPTIVE HYDRATION TELEMETRY PLATFORM
+            Development and Evaluation of an Adaptive Hydration Reminder System to Promote Healthy Drinking Habits 
           </p>
         </div>
 
@@ -334,8 +334,8 @@ export default function Dashboard() {
           </div>
 
           <div className="text-[11px] font-mono text-slate-400 bg-slate-950/60 p-3 rounded-2xl border border-slate-800/60 flex items-center justify-between">
-            <span>VL53L1X Precision:</span>
-            <span className="text-cyan-400 font-semibold">&plusmn;1.0 mm (Real-time)</span>
+            <span>Unlimited Energy</span>
+            <span className="text-cyan-400 font-semibold">&plusmn;Be a Health Hero Every Day!</span>
           </div>
         </div>
 
@@ -385,10 +385,10 @@ export default function Dashboard() {
           <div className="bg-gradient-to-br from-cyan-950/30 to-blue-950/20 border border-cyan-900/40 rounded-2xl p-4 flex-1 flex flex-col justify-between">
             <div className="flex items-center gap-1.5 text-cyan-400 text-xs font-mono font-semibold">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>DYNAMIC FORMULA</span>
+              <span>HYDRO HERO TEAM</span>
             </div>
             <p className="text-[11px] text-slate-400 leading-relaxed mt-2 font-mono">
-              Target fluid formula calculates base metabolic rate combined with El Niño atmospheric corrections and user exertion load.
+              Syaquila Ravabia Fakhrurriza - Naureen Annasya Yudiarto - Citra Aulia Aisha El Berta - Geanita Elthiana Lakisha Riawan - Talina Ardhani Prasetyo - Adeeva Khumaira Farzana Pratama  
             </p>
             <div className="mt-3 pt-2 border-t border-cyan-950 flex items-center justify-between text-[10px] font-mono text-cyan-400/80">
               <span>NVS SYNC: VERIFIED</span>
