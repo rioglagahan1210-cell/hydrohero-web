@@ -53,7 +53,7 @@ export default function Dashboard() {
         } else {
           // Robust Fallback Mockup
           setData({
-            device_id: 'HYDRO-HERO-01',
+            device_id: 'SD MUH SAPEN',
             bottle_volume_ml: 650,
             bottle_percent: 79,
             current_water_ml: 1250,
@@ -388,12 +388,12 @@ export default function Dashboard() {
               <span>HYDRO HERO TEAM</span>
             </div>
             <p className="text-[11px] text-slate-400 leading-relaxed mt-2 font-mono">
-              Syaquila Ravabia Fakhrurriza
-              Naureen Annasya Yudiarto
-              Citra Aulia Aisha El Berta
-              Geanita Elthiana Lakisha Riawan
-              Talina Ardhani Prasetyo
-              Adeeva Khumaira Farzana Pratama  
+              Syaquila Ravabia Fakhrurriza,
+              Naureen Annasya Yudiarto,
+              Citra Aulia Aisha El Berta,
+              Geanita Elthiana Lakisha Riawan,
+              Talina Ardhani Prasetyo,
+              Adeeva Khumaira Farzana Pratama,  
             </p>
             <div className="mt-3 pt-2 border-t border-cyan-950 flex items-center justify-between text-[10px] font-mono text-cyan-400/80">
               <span>NVS SYNC: VERIFIED</span>
