@@ -335,7 +335,7 @@ export default function Dashboard() {
 
           <div className="text-[11px] font-mono text-slate-400 bg-slate-950/60 p-3 rounded-2xl border border-slate-800/60 flex items-center justify-between">
             <span>Unlimited Energy</span>
-            <span className="text-cyan-400 font-semibold">&plusmn;Be a Health Hero Every Day!</span>
+            <span className="text-cyan-400 font-semibold">Be a Health Hero Every Day!</span>
           </div>
         </div>
 
@@ -388,7 +388,12 @@ export default function Dashboard() {
               <span>HYDRO HERO TEAM</span>
             </div>
             <p className="text-[11px] text-slate-400 leading-relaxed mt-2 font-mono">
-              Syaquila Ravabia Fakhrurriza - Naureen Annasya Yudiarto - Citra Aulia Aisha El Berta - Geanita Elthiana Lakisha Riawan - Talina Ardhani Prasetyo - Adeeva Khumaira Farzana Pratama  
+              Syaquila Ravabia Fakhrurriza
+              Naureen Annasya Yudiarto
+              Citra Aulia Aisha El Berta
+              Geanita Elthiana Lakisha Riawan
+              Talina Ardhani Prasetyo
+              Adeeva Khumaira Farzana Pratama  
             </p>
             <div className="mt-3 pt-2 border-t border-cyan-950 flex items-center justify-between text-[10px] font-mono text-cyan-400/80">
               <span>NVS SYNC: VERIFIED</span>
