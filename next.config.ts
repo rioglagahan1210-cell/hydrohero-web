@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Mengizinkan akses HMR dari IP lokal LAN */
+  allowedDevOrigins: ["192.168.1.9", "localhost:3000"],
+
   experimental: {
     agentFeedback: true,
   },
