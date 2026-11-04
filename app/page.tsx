@@ -122,7 +122,7 @@ export default function Dashboard() {
           <div className="flex items-center gap-3">
             <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_12px_#22d3ee]"></span>
             <h1 className="text-2xl font-black tracking-tight text-white flex items-center gap-2">
-              HYDRO HERO <span className="text-cyan-400 text-base font-medium">OS v2.4</span>
+              HYDRO HERO <span className="text-cyan-400 text-base font-medium">TUMBLER</span>
             </h1>
             <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-400">
               ID: {data.device_id}
